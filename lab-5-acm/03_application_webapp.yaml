@@ -2,7 +2,7 @@ apiVersion: app.k8s.io/v1beta1
 kind: Application
 metadata:
   name: web-app     
-  namespace: web-app
+  namespace: web-app-acm
 spec:
   selector:
     matchExpressions:

@@ -2,7 +2,7 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
   name: web-app-channel
-  namespace: web-app
+  namespace: web-app-acm
 spec:
   pathname: 'https://github.com/radarlui/rhacmgitopslab.git'
   type: GitHub
