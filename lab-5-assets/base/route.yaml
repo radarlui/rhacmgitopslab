@@ -10,5 +10,7 @@ spec:
     kind: Service
     name: the-service
     weight: 100
+  tls:
+    termination: edge
 status:
   ingress: []
